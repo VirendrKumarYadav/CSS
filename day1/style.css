@@ -1,5 +1,5 @@
 *{
-    background-color: whitesmoke;
+    background-color: rgb(160, 192, 248);
 }
 h2{
     colour:red;
@@ -10,4 +10,7 @@ h2{
 }
 #cl2{
     color: aquamarine;
+}
+.ff{
+    color: crimson;
 }
