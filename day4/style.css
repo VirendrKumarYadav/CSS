@@ -1,0 +1,14 @@
+.overflow{
+    height: 200px;
+    width: 150px;
+    background-color: yellow;
+    overflow: scroll;
+    border: 2ex solid rgba(173, 123, 123, 0.034);
+
+}
+hr{
+    background-color: red;
+    border: darkred;
+    width: 10px;
+    height: 2px;
+}

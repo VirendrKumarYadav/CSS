@@ -17,23 +17,30 @@
 }
 
 .sub_cont {
-   
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .7);
 }
-img{
-    padding-top: 38px;
-    padding-left: 190px;
-    width: 12%;
-    
+
+.image{
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
-.btn {
-   padding: 30px;
-    width: 60%;
+.head{
+ display: inline-block;
+height: 20%;
+display: flex;
 }
-button{
+.btn {
+    padding: 30px;
+    width: 80%;
+    text-align: right;
+}
+
+.btn button{
     background: red;
     padding: 8px 14px;
     border: none;
@@ -41,12 +48,22 @@ button{
     font-size: 15px;
     border-radius: 5px;
     font-weight: bold;
-
+    margin-left: 12px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80%;
 }
 h1{
-    font-size: 55px;
-    text-align: center;
-    color: white;
+    
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 #p1{
   font-size: 28px;
