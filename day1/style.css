@@ -1,16 +1,25 @@
-*{
+/* * {
     background-color: rgb(160, 192, 248);
-}
-h2{
-    colour:red;
+} */
+
+h2 {
+    colour: red;
 
 }
-.cl1{
-     color: brown;
+
+.cl1 {
+    color: brown;
 }
-#cl2{
+
+#cl2 {
     color: aquamarine;
 }
-.ff{
+
+.ff {
     color: crimson;
 }
+
+/* html {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+} */

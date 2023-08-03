@@ -1,0 +1,38 @@
+#heading1{
+    /* border: 3px;
+    border-width: 3px 4px 5px 6px;
+    border-width: 4px;
+    border-style: double;
+    border-color: green;
+    border-style: dotted; */
+    border-left: 4px dotted red;
+    border-bottom: 4px dashed green;
+    
+}
+.heading2{
+    border:solid red;
+    font-size: 3em;
+    text-align: center;
+    colour:blue;
+    text-transform: uppercase;
+    /* text-decoration: overline; */
+    text-decoration: solid;
+    text-decoration-color: rgb(190, 7, 190);
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    
+}
+.sp{
+    word-spacing: 2px;
+    /* word spacing */
+    letter-spacing:2px;
+}
+.s1{
+    /* font: medium; */
+    /* font-family: 'Curerior New', monospace,medium;
+font:'Borel' */
+font-family: 'Roboto Condensed', sans-serif;
+
+}
