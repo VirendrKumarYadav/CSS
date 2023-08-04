@@ -1,4 +1,5 @@
 **COLOR MAKER**
+Hosted link :https://virendrkumaryadav.github.io/CSS//color_maker/index.html
 Index.html
 ![image](https://github.com/VirendrKumarYadav/CSS/assets/87600216/3b430ea5-b358-44e5-8f8c-4e3f0abbfe01)
 
