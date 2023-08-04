@@ -14,3 +14,4 @@ Github link: https://github.com/VirendrKumarYadav/CSS/edit/master/hw_netflix
 6. width of buttons ,image, text, and added border.
 7. height of the buttons image , text and buttons, added border.      
  
+![Uploading image.png…]()
