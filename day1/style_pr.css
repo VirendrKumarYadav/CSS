@@ -1,0 +1,64 @@
+.context {
+    height: 6vw;
+    width: 100vw;
+    color: rgba(255, 0, 0, 0.695);
+    background-color: rgb(15, 153, 153);
+}
+
+.txt {
+    height: 40px;
+    width: 150px;
+    color: rgb(52, 52, 238);
+    background-color: beige;
+    font-family: "Sofia", sans-serif;
+    ;
+}
+
+.border {
+    border-style: double;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    color: rgb(103, 228, 186);
+    background-color: cornflowerblue;
+    border: none
+}
+
+.padding {
+    height: auto;
+    width: 120px;
+    color: cadetblue;
+    background-color: rgb(192, 217, 149);
+    padding: 10px;
+
+    /* padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px; */
+}
+
+.margin1 {
+    height: auto;
+    width: 120px;
+    color: rgba(151, 9, 9, 0.675);
+    background-color: green;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px;
+
+}
+
+.c {
+    display: block;
+    color: red;
+    height: auto;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(53, 127, 53);
+    border-radius: 10px;
+    border-color: rgb(217, 13, 98);
+    border: 2px solid rgb(240, 6, 96);
+}

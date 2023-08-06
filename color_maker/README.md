@@ -10,7 +10,8 @@ Index.html
 1.we have text-align tag for align tthe text
 2. padding used for four side of text.
 3. I have used the background colour cass for make colour background
-4. i have used margin of the colour box.
+4. i have used margin of the colour box..
+
 5. border i have alredy used in the pevious one.
 6. height and width used to set hight of element.
 
