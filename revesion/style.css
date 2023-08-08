@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.cont :not(.m){
+    height: 3in;
+    width: 2.5in;
+    background-color: rgba(181, 178, 178, 0);
+    margin: auto;
+    border: 1.5em solid black;
+    padding: 2em;
+
+}
+
+.size_1 {
+
+    height: .8in;
+    width: 1.5in;
+    margin: auto;
+
+}
+
+.size_2 {
+    height: .8in;
+    width: 2.5in;
+    margin: 2px;
+}
+
+.color1 {
+    background-color: brown;
+    z-index: 1;
+}
+
+.color2 {
+    background-color: rgb(224, 224, 14);
+    z-index: 2;
+}
+
+.color3 {
+    background-color: rgb(133, 19, 199);
+    z-index: 3;
+}
+
+.subCon {
+    position: relative;
+    background-color: brown;
+
+}
