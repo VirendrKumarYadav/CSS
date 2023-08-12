@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <link rel="stylesheet" href="./grid.css">
+    <style>
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            gap: 10px;
+            background-color: #093457;
+            padding: 10px;
+        }
+        .grid-container>div {
+            background-color: rgba(179, 169, 169, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .item1 {
+            grid-column: 1 / span 3;
+        }   
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Grid Concept</h1>
+    <h2>For container</h2>
+    <b>
+        <p>Display:grid;</p>
+        <p> grid-template-columns: auto auto auto;</p>
+        <p> grid-template-rows: auto auto auto;</p>
+        <p>column-gap,<br>
+            row-gap <br>
+            gap</p>
+    </b>
+    <p>the <b>align-content</b> property is used to vertically align the whole grid inside the container.</p>
+    <p>Use the <b>justify-content</b> property to align the grid inside the container.</p>
+
+    <p>The value "space-evenly" will give the columns equal amount of space between, and around them:</p>
+    </p>
+    <hr>
+
+    <h2>For itams</h2>
+    <p>grid-column-start: 1;<br>
+        grid-column-end: 3;</p>
+    <p> grid-row-start: 1;<br>
+        grid-row-end: 3;</p>
+    <p>these mmethods to replicte grid roe and columns</p>
+    <hr>
+    <p>item1 {
+        grid-column: 1 / span 5;
+        }</p>
+    <p>item1 {
+        grid-row: 1 / span 5;
+        }</p>
+    <p>for wrap the grid column row based on the no given</p>
+    <p>span used for the data </p>
+    <p>.item8 {
+        grid-area: 2 / 1 / span 2 / span 3;
+        }</p>
+    <p>this is for particular itam</p>
+
+    <hr>
+    <div class="container">
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+    </div>
+
+    <hr>
+    <br>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+        <div class="item13">13</div>
+        <div class="item14">14</div>
+        <div class="item15">15</div>
+        <div class="item16">16</div>
+    </div>
+
+</body>
+
+</html>

@@ -25,8 +25,7 @@
     box-shadow: 0px 0px 10px black;
     /* position: relative; */
     transform: rotate(10deg);
-    background: linear-gradient(to right, #b92b27, #1565c0);
-    
+    background: linear-gradient(to right, #b92b27, #1565c0); 
 
 }
 
