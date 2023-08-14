@@ -81,6 +81,7 @@ header a {
     left: 0px;
     background-color: rgba(0,0,0,0.2);
 } */
+
 .homepage.background {
     filter: brightness(100%);
 }
@@ -245,7 +246,7 @@ form textarea {
     width: 100%;
     font-size: 16px;
     height: 150px;
-    outline: none;
+     outline: none;
     resize: vertical;
     border: 1px solid #bfbfbf;
 }
@@ -263,5 +264,9 @@ form textarea {
 }
 
 #submit {
-    width: 155px;
+    width: 160px;
+
+}
+#submit:hover{
+  background: rgba(0, 0, 0, .7);
 }
