@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 60px;
+    width: 100vw;
+    background-color: #3D71E7;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_m {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#logo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo img {
+    height: 20px;
+    width: 75px;
+    margin: auto;
+}
+
+.logo_txt {
+    font-size: 11px;
+    width: 75px;
+    color: white;
+    font-style: italic;
+}
+
+.logo_txt2 {
+    color: #FBE305;
+}
+
+/* search */
+.searchbar {
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    margin-right: 0px;
+    border-color: none;
+
+}
+
+/* login */
+.login {
+    width: 121px;
+    height: 31px;
+    margin: 15px;
+    font-weight: bold;
+    color: #3D71E7;
+    border-color: none;
+}
+
+.seller {
+    color: #fff;
+    margin: 10px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* more */
+.more {
+    display: flex;
+    color: #fff;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* cart */
+.cart {
+    display: flex;
+    color: #fff;
+    margin: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#search_icon {
+    display: flex;
+    height: 39px;
+    width: 30px;
+    margin: 10px;
+    margin-left: -1px;
+    background-color: white;
+    color: #3D71E7;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav bars */
+.navbars {
+
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(235, 241, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.nav_tab {
+   height: 80px;
+   width: 60px;
+   border: 2px solid red ;
+   margin: 25px;
+}
