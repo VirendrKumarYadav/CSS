@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #CEF3F1 */
+/* #93C1B6 */
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+#main_bd {
+    height: 110vh;
+    width: 100vw;
+    background: linear-gradient(#CEF3F1, #93C1B6);
+
+}
+
+/* side bar */
+.sidebar {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid rgb(86, 64, 64); */
+    border-radius: 20px;
+    background-color: #F0FBF9;
+
+}
+
+/* main bar */
+.profile {
+    display: flex;
+    /* justify-content: center; */
+    display: block;
+    /* align-items: center; */
+    margin: 55px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: center;
+}
+
+.tabs .tab {
+    margin: 20px 60px;
+
+}
+
+span {
+    padding: 10px;
+}
+
+.profile img {
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+}
+
+.footer {
+    /* height:120px;
+    width: 120px; */
+    /* background:linear-gradient(to left ,#7AC4B0, #7FC8C7); */
+    overflow-wrap: wrap;
+
+}
+
+.ft_im {
+    background: linear-gradient(to left, #7AC4B0, #7FC8C7);
+    height: 110px;
+    width: 220px;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+h3 {
+    padding: 20px;
+    height: 55px;
+    width: 110px;
+    color: white;
+}
+
+.ft_im img {
+    height: 30px;
+    width: 85px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    transform: rotate(-30deg);
+}
+
+
+
+/* main Bar */
+.mainbar {
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+
+.mainbar h1 {
+    color: #65839D;
+    height: 20px;
+    /* width: 100px; */
+    margin-top: 100px;
+    margin-left: 170px;
+    border-style: none;
+}
+
+.mainbar input {
+    margin: 20px;
+    margin-left: 170px;
+    width: 220px;
+    height: 22px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 40px;
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+   
+    margin-top: 30px;
+    height: 120px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    margin-left: 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.394);
+}
+.img_tg img{
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    margin-left: 20px;   
+}
+
+.box img {
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.box input {
+
+    background-color: #91E6DA;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+    /* flex-direction: column; */
+   
+}
+
+.box .txt {
+    margin: 20px;
+    margin-top: 20px;
+
+}
