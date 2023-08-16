@@ -111,8 +111,31 @@
 }
 
 .nav_tab {
-   height: 80px;
-   width: 60px;
-   border: 2px solid red ;
-   margin: 25px;
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid red; */
+    margin: 25px;
+  
+}
+
+.nav_tab img {
+    height: 70%;
+    width: 80%;
+}
+
+.nav_tab a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_tab .beauty b{
+  font-size: 12px;
+}
+.nav_tab a .expnad_more span{
+    height: 2px;
+    width: 2px;
 }
