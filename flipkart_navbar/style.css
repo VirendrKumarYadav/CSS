@@ -139,3 +139,7 @@
     height: 2px;
     width: 2px;
 }
+.expnad_more{
+    display: flex;
+    flex-direction: row;
+}
