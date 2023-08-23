@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.container>img{
+   max-width: 350px;
+transform: perspective(800px) rotateY(25deg);
+height: 350px;
+width: 350px;
+object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px grey;
+-webkit-box-reflect: below 0px linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+}
+
+.container>img:hover{
+    transform: rotateY(0deg);
+    transition: .5s;
+}
+.container:hover .watch:not(:hover) {
+  opacity: .3;
+  
+ 
+}
+ 
