@@ -102,6 +102,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -115,12 +116,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
 
 .sub_hero2>img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
     filter: blur(2px);
     position: absolute;
     transition: all .3s ease-in-out;
@@ -133,6 +135,8 @@ header {
     filter: blur(2px);
     position: absolute;
     transition: all .3s ease-in-out;
+
+
 }
 
 .contents {
@@ -156,11 +160,11 @@ header {
 }
 
 .sub_hero1>img:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .sub_hero2>img:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 /* Seection 2 */
@@ -168,12 +172,152 @@ header {
 .logos {
     padding-top: 18px;
     padding-bottom: 17px;
-    max-width: 1200px;
-    height: 20px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos>.logo {
+    height: 30px
+}
+
+/* section 3 */
+.sec_3 {
+    width: 100vw;
+    height: 50vh;
     display: flex;
     justify-content: center;
 }
 
-.logos>.logo {
-height: 20px
+.sec3_contents {
+
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    /* border:2px solid red; */
+}
+
+.content>h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+/* section 4 */
+.sec_4{
+    margin-top: 100px;
+}
+.sec4_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+     padding: 40px;
+}
+
+.sec4_container>.img{
+    height: 290px;
+    width: 50vw;
+    overflow: hidden;
+
+}
+
+.sec4_container>.img>img{
+    object-fit: contain;
+    height: 290px;
+    width: 290px;
+}
+.sec4_container>.sec4_details{
+       height: 60vh;
+       width: 40vw;
+       /* margin-left: 700px; */
+       /* border: 2px solid red; */
+}
+.sec4_details>h3, button, p{
+    margin-bottom: 20px;
+}
+.sec4_details>button{
+    border-radius: 20px;
+    padding: 8px 10px ;
+    background-color: #ff4a32;
+    border: none;
+    color:white;
+}
+
+/* secction 5 */
+.sec_5{
+    margin-top: 100px;
+}
+.sec5_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+/* sec 6 */
+.sec_6{
+    margin-top: 100px;
+}
+.sec6_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sec6_container>.img{
+    height: 400px;
+    width: 70vw;
+    overflow: hidden;
+
+}
+
+.sec6_container>.img>img{
+    object-fit: contain;
+    height: 400px;
+    width: 290px;
+}
+.sec6_container>.sec4_details{
+       height: 60vh;
+       width: 40vw;
+       /* margin-left: 700px; */
+       /* border: 2px solid red; */
+}
+.sec6_details>h3, button, p{
+    margin-bottom: 20px;
+}
+.sec6_details>button{
+    border-radius: 20px;
+    padding: 8px 10px ;
+    background-color: #ff4a32;
+    border: none;
+    color:white;
+}
+/* Partition */
+.partition{
+    position: relative;
+    width: 200vh;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0px;
+
+}
+.partition>img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+.partition>.content{
+    position: absolute;
+}
+.partition>.content>.parent{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
 }
