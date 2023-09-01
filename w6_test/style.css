@@ -314,10 +314,27 @@ header {
     object-fit: cover;
 }
 .partition>.content{
-    position: absolute;
+    position: relative;
+    margin-top: -500px;
+    margin-left: 450px;
 }
 .partition>.content>.parent{
+    top: 0px;
     display: flex;
     justify-content: center;
-  flex-direction: column;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+
+}
+.partition>.content>.parent>button{
+    width: 100px;
+    padding: 10px 15px;
+    margin-left: 110px;
+    border-radius: 10px;
+    border:none;
+    background-color: #ff4a32;
+    color: white;
 }
