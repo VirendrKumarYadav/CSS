@@ -100,6 +100,7 @@ button:hover {
     height: 30px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: fixed;
     justify-content: space-between;
     top: 0;
@@ -112,7 +113,6 @@ button:hover {
     background-color: #113448;
 }
 
-.nav>img {}
 
 .nav_links li a {
     text-decoration: none;
@@ -403,6 +403,9 @@ ul li {
 
 .left {
     width: 50%;
+}
+.left>span{
+    margin-bottom: 50px;
 }
 
 .sec_title {
