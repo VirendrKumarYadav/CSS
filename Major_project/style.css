@@ -163,7 +163,8 @@ button:hover {
 /* INTROS */
 .intro {
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
+    margin-bottom: 100px;
 }
 
 
@@ -173,6 +174,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin: 100px;
+    gap: 70px;
 }
 
 .img_container {
@@ -215,7 +217,9 @@ button:hover {
 .content p {
     margin-bottom: 16px;
 }
-
+._2{
+    color: #787976; 
+}
 ._3 {
     color: #787976;
     font: 400 1rem/1.5625rem "Open Sans", sans-serif;
@@ -232,6 +236,7 @@ button:hover {
     align-items: center;
     display: flex;
     justify-content: space-between;
+
 }
 
 .info_box {
@@ -261,18 +266,15 @@ button:hover {
 }
 
 .hexa_img #menu {
-    left: 30.5rem;
+    left: 34.2rem;
     margin-top: 30px;
 }
 
 .hexa_img #paichart {
-    left: 57rem;
+    left: 64.7rem;
     margin-top: 30px;
 }
 
-.content {
-    margin-right: 30px;
-}
 
 .head {
     color: #484a46;
@@ -289,10 +291,11 @@ button:hover {
 /* Services  */
 
 .services {
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     background-color: #fbfbfb;
     padding: 5rem 0;
+    margin-bottom: 100px;
 }
 
 .services .service_head {
@@ -303,6 +306,7 @@ button:hover {
     flex-direction: column;
     text-align: center;
     color: var(--light-green-color);
+    margin-bottom: 20px;
 }
 
 .service_head .services_summ {
@@ -312,6 +316,8 @@ button:hover {
 
 .services_body {
     display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 .services_body .card {
@@ -325,7 +331,7 @@ button:hover {
     background-color: #FFFFFF;
     border: 2px solid #F1F0F0;
     position: relative;
-    left: 70px;
+    /* left: 70px; */
 }
 
 .card img {
